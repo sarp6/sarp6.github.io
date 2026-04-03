@@ -4,28 +4,34 @@ const projects = [
   {
     title: "ClosestFood",
     description:
-      "A modern restaurant discovery web app focused on filtering, sorting, distance-based results, ratings, reviews, and a clean user experience.",
+      "A location-based restaurant discovery web application that helps users find nearby dining options using real-time distance calculations. The platform provides advanced filtering and sorting capabilities based on distance, rating, review count, and overall score, enabling users to quickly identify the best choices around them. The system includes dynamic distance formatting (meters/kilometers) and responsive UI updates based on user interactions. Built with a modern web stack, the project focuses on usability, performance, and real-world location-based problem solving.",
     tech: ["React", "Vite", "Tailwind CSS", "API Integration"],
     
   },
   {
     title: "Formix Studio",
     description:
-      "A modular software product designed around form conversion workflows and a future AI-supported Excel assistant module.",
+      "A modular desktop application designed as a container platform for productivity tools. The system currently includes a form conversion tool that allows users to input structured data and generate real-time previews in Excel and PDF formats. The architecture is designed to support future integrations, including an AI-powered Excel assistant. The project focuses on extensibility, modular design, and user-centric workflows.",
     tech: ["C#", ".NET", "Product Design", "Tooling"],
     
   },
   {
+    title: "HomeChores",
+    description:
+      "A collaborative household management web application that enables users to create, assign, and track daily chores within shared homes. Built with a modern full-stack architecture, the system includes real-time updates, role-based access, and a scalable backend powered by Supabase. The project focuses on improving task organization and accountability in shared living environments.",
+    tech: ["Next.js", "TypeScript", "Supabase", "PostgreSQL", "TailwindCSS"],
+  },
+  {
     title: "VibeTrail",
     description:
-      "A social media style mobile application where users can create posts, interact with content, and experience a modern mobile-first interface.",
+      "A modern social media mobile application built with Flutter and Firebase, designed to enable users to share and discover content based on their daily interests such as music, movies, and books. The platform supports real-time interactions including likes, comments, and dynamic user profiles with customizable avatars. Leveraging Firebase services like Authentication, Firestore, and Storage, the application ensures scalable data management and seamless user experience. The project focuses on clean UI/UX design, performance optimization, and interactive social engagement.",
     tech: ["Flutter", "Firebase", "Dart"],
     
   },
   {
     title: "Tabu Game",
     description:
-      "A polished mobile game experience built with modern UI ideas, dynamic flow, and interactive team-based gameplay mechanics.",
+      "A real-time multiplayer Tabu-style word game developed using Flutter and Firebase. The application features team-based gameplay, dynamic score tracking, customizable game settings, and interactive UI elements. Data is managed through Firestore, enabling real-time synchronization across players. The project focuses on smooth gameplay experience, responsive design, and scalable game logic architecture.",
     tech: ["Flutter", "Firebase", "Game Logic", "UI/UX"],
     
   },
@@ -54,7 +60,7 @@ const skills = [
 const experiences = [
   {
     title: "Software Development Intern",
-    company: "Kolay Gelsin",
+    company: "Koç Sendeo / Kolay Gelsin",
     period: "Jun 2024 - Jun 2025",
     details:
       "Worked on multiple software projects, contributed to SOLID-focused development practices, design pattern implementations, unit testing processes, and troubleshooting database-related issues while also supporting Scrum-related workflows.",
